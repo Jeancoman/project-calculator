@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  display: flex;
+  height: 97vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  min-height: 0;
+  justify-content: center;
+  width: 350px;
+  height: 500px;
+  background-color: #cccccc;
+  border: 3px solid #aaaaaa;
+  border-radius: 20px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.screen {
+  background-color: white;
+  flex: 1;
+  flex-shrink: 0;
+  height: 75px;
+  width: 50px;
+  border: 3px solid #aaaaaa;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.line-break {
+  width: 100%;
+}
+
+.text {
+  text-align: right;
+  padding: 10px;
+  padding-right: 20px;
+  font-family: "PT Mono";
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.uptext {
+  text-align: right;
+  padding: 10px;
+  padding-right: 20px;
+  font-family: "PT Mono";
+  font-size: 12px;
+  font-weight: 900;
+}
+
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all;
+}
+
+.btn {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 20px;
+  border: 2px solid #aaaaaa;
+  border-radius: 20px;
+}
+
+.btn:last-of-type {
+  width: 140px;
+  font-size: 40px;
+}
